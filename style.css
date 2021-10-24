@@ -1051,14 +1051,14 @@ main {
   height: 40px;
   border-radius: 50%;
   background: #FF3E79;
-  background-image: url(/img/x.svg);
+  background-image: url(./static/x.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   margin: auto 16px auto 24px; }
 
 .side__menu__header__logo {
-  background-image: url(/img/header__logo.png);
+  background-image: url(./static/header__logo.png);
   height: 50.81px;
   width: 96.55px; }
 
@@ -1071,7 +1071,7 @@ main {
   height: 40px;
   border-radius: 50%;
   background: #FF3E79;
-  background-image: url(/img/headerRight__search.svg);
+  background-image: url(./static/headerRight__search.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1114,7 +1114,7 @@ a {
   height: 40px;
   border-radius: 50%;
   background: #FF3E79;
-  background-image: url(/img/header__tel.svg);
+  background-image: url(./static/header__tel.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1125,7 +1125,7 @@ a {
   height: 40px;
   border-radius: 50%;
   background: #FF3E79;
-  background-image: url(/img/header__massage.svg);
+  background-image: url(./static/header__massage.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1136,7 +1136,7 @@ a {
   height: 40px;
   border-radius: 50%;
   background: #FF3E79;
-  background-image: url(/img/header__profile.svg);
+  background-image: url(./static/header__profile.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center; }
