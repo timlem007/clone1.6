@@ -470,7 +470,7 @@ main {
 .readMore__icon {
   width: 24px;
   height: 24px;
-  background-image: url(/img/readMore__icon.png);
+  background-image: url(./static/readMore__icon.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center; }
