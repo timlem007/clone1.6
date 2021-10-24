@@ -1,0 +1,142 @@
+.orderCall {
+	background: #FFFFFF;
+width: 320px;
+height: 1805px;
+position: absolute;
+right: -550px;
+z-index: 20;
+}
+
+@media (min-width: 767px) {
+	.orderCall {
+width: 440px;
+	}
+}
+
+
+.orderCall_open {
+right: 0px;
+}
+
+.orderCall_close {
+right: -550px;
+}
+
+
+.orderCall__block {
+	max-width: 320px;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+@media (min-width: 767px) {
+	.orderCall__block {
+		max-width: 440px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	}
+}
+
+
+.orderCall__header{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	height: 96px;
+	padding-left: 4px;
+}
+
+
+.orderCall__close {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #FF3E79;
+	background-image: url(/img/x.svg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	margin: 24px 16px 0px 16px;
+	z-index: 20;
+	}
+
+
+@media (min-width: 767px) {
+	.orderCall__close {
+		display: none;
+		
+		}
+	}
+
+
+	.orderCall__close_mobil {
+		display: none;
+	}
+
+	@media (min-width: 767px) {
+.orderCall__close_mobil {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #FF3E79;
+	background-image: url(/img/x.svg);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	margin-top: 0px;
+	z-index: 20;
+	transform: translate3d(-460px, 6px, 0px);
+	}
+}
+
+
+#call-tel {
+margin-bottom: 16px;
+height: 48px;
+margin: 0px 16px;
+}
+
+
+
+.orderCall__label {
+	padding: 40px 16px 24px 12px;
+	line-height: 32px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #1B1C21;
+	box-shadow: -35px 7px 0px -30px #41F6D7;
+}
+
+
+#orderCallId {
+	width: 136px;
+	height: 32px;
+	background: #FF3E79;
+border-radius: 16px;
+color: #FFFFFF;
+line-height: 24px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+h6 {
+	margin: 0px 16px 16px 16px;
+	line-height: 16px;
+	font-size: 14px;
+	color: #7E7E82;
+}
+
+.orderCall__btn {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px 16px;
+}
+
+.privacy, .personalData {
+	color:#FF3E79;
+}
+

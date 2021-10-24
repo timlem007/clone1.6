@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('/src/fonts/TTLakes-Bold.eot');
+    src: url('/src/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/TTLakes-Bold.woff2') format('woff2'),
+        url('/src/fonts/TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('/src/fonts/TTLakes-Medium.eot');
+    src: url('/src/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/TTLakes-Medium.woff2') format('woff2'),
+        url('/src/fonts/TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('/src/fonts/TTLakes-Regular.eot');
+    src: url('/src/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/TTLakes-Regular.woff2') format('woff2'),
+        url('/src/fonts/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@import "_header";
+@import "_title-servise";
+@import "_service-brands--service-technics--service-prices";
+@import "_commercial-proposal--footer";
+@import "_side__menu";
+@import "_ feedback";
+@import "_ orderCall";
